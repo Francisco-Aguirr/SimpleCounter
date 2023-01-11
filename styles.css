@@ -16,7 +16,7 @@ body{
 }
 
 .cont-temporizador .bloque{
-    margin: 0px, 4px;
+    margin: 0px, 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ body{
     height: 70px;
     margin-bottom: 10px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 2px;
 }
 .cont-temporizador .bloque p{
     font-size: 11px;
@@ -43,6 +43,6 @@ body{
     color: #ffffff;
 }
 .off{
-    padding-top: 500px;
+    padding-top: 450px;
     
 }
