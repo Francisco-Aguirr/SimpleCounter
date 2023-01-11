@@ -46,3 +46,13 @@ body{
     padding-top: 450px;
     
 }
+@media screen and (max-width: 320px) {
+    .cont-temporizador .bloque div{
+ width: 50px;       
+    }
+}
+@media screen and (max-width: 375px) {
+    .cont-temporizador .bloque div{
+ width: 60px;       
+    }
+}
