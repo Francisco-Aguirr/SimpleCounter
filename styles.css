@@ -1,0 +1,48 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(93, 75, 93);
+    background-image: url(/mordor.jpg);
+}
+.cont-temporizador{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-temporizador .bloque{
+    margin: 0px, 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-temporizador .bloque div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 0px 0px 6px 2px #727272 inset;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cont-temporizador .bloque p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.off{
+    padding-top: 500px;
+    
+}
