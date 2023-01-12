@@ -4,7 +4,7 @@ const hours = document.getElementById("horas");
 const mins = document.getElementById("minutos");
 const seconds = document.getElementById("segundos");
 
-const endBootcamp = '10 Mar 2023 15:30';
+const endBootcamp = '10 Mar 2023 16:00';
 
 function countTimer(){
     const endBootcampDate = new Date(endBootcamp);
@@ -21,12 +21,13 @@ function countTimer(){
     hours.innerHTML = hoursCalc;
     mins.innerHTML = minsCalc;
     seconds.innerHTML = secondsCalc;
-
-   
+     
 }
+
 countTimer();
 
-setInterval(countTimer, 1000, clearInterval);
+setInterval(countTimer, 1000);
+
 
 
 

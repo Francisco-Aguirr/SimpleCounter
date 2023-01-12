@@ -1,5 +1,5 @@
 # SimpleCounter
-Simple counter that uses setTimeOut, setInterval and Date properties from JavaScript.
+Simple timer that uses setTimeOut, setInterval and Date properties from JavaScript.
 <h1>Technologies</h1>
 <div style="display: flex; flex-direction: row;">
 <img src="https://user-images.githubusercontent.com/114617641/211914572-c56097ba-29fc-461f-86dd-0ca74b9b9c4b.svg" style="height: 100px; width: 100px"></img>

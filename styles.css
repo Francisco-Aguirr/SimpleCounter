@@ -56,3 +56,23 @@ body{
  width: 60px;       
     }
 }
+@media screen and (max-width: 320px){
+    .off{
+        padding-top: 380px;
+    }
+}
+@media screen and (max-width: 375px){
+    .off{
+        padding-top: 380px;
+    }
+}
+@media screen and (max-width: 425px){
+    .off{
+        padding-top: 380px;
+    }
+}
+@media screen and (max-width: 768px){
+    .off{
+        padding-top: 380px;
+    }
+}
